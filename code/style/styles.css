@@ -1,0 +1,405 @@
+#upper_border {
+    border: 4px ridge rgb(167, 190, 211);
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    left:50px;
+    width:1560px;
+    height:560px;
+}
+#dashboardtitle {
+    border:4px black;
+    background-color: white;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    text-align: start;
+    text-anchor: middle;
+    position:absolute;
+    top:18px;
+    left:80px;
+    width:300px;
+    height:20px;
+}
+#filtersTopLegends {
+    position:absolute;
+    top:15px;
+    left:55px;
+    width:1550px;
+    height:20px;
+}
+#SalesOrProfitLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:14px;
+    left:300px;
+    width:200px;
+    height:20px;
+}
+#YearLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:14px;
+    left:650px;
+    width:200px;
+    height:20px;
+}
+#CustomerAgeGroupLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:14px;
+    left:1100px;
+    width:200px;
+    height:20px;
+}
+#filtersTop {
+    border: 2px ridge rgb(167, 190, 211);
+    font-family: sans-serif;
+    position:absolute;
+    top:15px;
+    left:55px;
+    width:1555px;
+    height:40px;
+}
+#selectButtonProfitOrSales {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:510px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonYear {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:860px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonCustomerAgeGroup {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:1310px;
+    width:200px;
+    height:20px;
+}
+
+#barChart {
+    border:2px ridge rgb(167, 190, 211);
+    position:absolute;
+    top:60px;
+    left:55px;
+    width:1150px;
+    height:250px;
+}
+
+#stackedAreaChart {
+    border:2px ridge rgb(167, 190, 211);
+    position:absolute;
+    top:60px;
+    left:1210px;
+    width:400px;
+    height:250px;
+}
+
+#slopeGraph {
+    border:2px ridge rgb(167, 190, 211);
+    position:absolute;
+    top:315px;
+    left:55px;
+    width:1150px;
+    height:253px;
+}
+
+#dept {
+    color: black;
+    font-size: 12px;
+    position:absolute;
+    top:325px;
+    left:310px;
+    width:100px;
+    height:20px;
+}
+#class {
+    color: black;
+    font-size: 12px;
+    position:absolute;
+    top:325px;
+    left:980px;
+    width:100px;
+    height:20px;
+}
+
+#sunBurst {
+    position:absolute;
+    z-index: 1;
+    top:320px;
+    left:500px;
+    width:570px;
+    height:253px;
+}
+
+.node {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: auto;
+}
+
+.node-label {
+    padding: 6px;
+    line-height: 1em;
+    font-size: 12px;
+    white-space: pre;
+}
+
+.node-value {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    font-size: 2px;
+    margin-top: 1px;
+}
+
+#wordCloud {
+    border:2px ridge rgb(167, 190, 211);
+    position:absolute;
+    top:315px;
+    left:1210px;
+    width:400px;
+    height:253px;
+}
+
+#TopProductsLegend {
+    border:2px solid lightblue;
+    background-color: lightyellow;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+    text-anchor: middle;
+    position:absolute;
+    top:5px;
+    left:100px;
+    width:200px;
+    height:20px;
+}
+
+#lower_border {
+    border: 4px ridge rgb(210, 145, 188);
+    font-family: sans-serif;
+    position:absolute;
+    top:580px;
+    left:50px;
+    width:1560px;
+    height:300px;
+}
+
+#filtersBottom {
+    border: 2px ridge rgb(210, 145, 188);
+    position:absolute;
+    top:585px;
+    left:55px;
+    width:1555px;
+    height:40px;
+}
+
+#lineChart {
+    border: 2px ridge rgb(210, 145, 188);
+    position:absolute;
+    top:630px;
+    left:55px;
+    width:1555px;
+    height:250px;
+}
+
+#brand1 {
+    border:2px black;
+    background-color: #B49DED;
+    color: black;
+    position:absolute;
+    top:65px;
+    left:1490px;
+    width:100px;
+    height:20px;
+}
+
+#brand2 {
+    border:2px black;
+    background-color: #B2D17B;
+    color: black;
+    position:absolute;
+    top:88px;
+    left:1490px;
+    width:100px;
+    height:20px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 90px;
+    height: 44px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#filtersBottomLegends {
+    position:absolute;
+    top:590px;
+    left:60px;
+    width:1555px;
+    height:40px;
+}
+
+#DepartmentLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: start;
+    text-anchor: middle;
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:100px;
+    height:20px;
+}
+
+#selectButtonDepartment {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:110px;
+    width:200px;
+    height:20px;
+}
+
+#ClassLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:10px;
+    left:200px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonClass {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:410px;
+    width:200px;
+    height:20px;
+}
+
+#SubClassLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:10px;
+    left:550px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonSubClass {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:770px;
+    width:200px;
+    height:20px;
+}
+
+#QuarterLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:10px;
+    left:900px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonQuarter {
+    border:2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position:absolute;
+    top:10px;
+    left:1120px;
+    width:50px;
+    height:20px;
+}
+
+#ProductLegend {
+    border:2px black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: end;
+    text-anchor: middle;
+    position:absolute;
+    top:10px;
+    left:1100px;
+    width:200px;
+    height:20px;
+}
+
+#selectButtonProduct {
+    border: 2px black;
+    font-size: smaller;
+    background-color: gainsboro;
+    position: absolute;
+    top: 10px;
+    left: 1310px;
+    width: 240px;
+    height: 20px;
+}
+
+

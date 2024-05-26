@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="description" content="Boilerplate for Laboratory Exercises">
+		<meta name="author" content="Faculty">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Boilerplate</title>
+
+		<!-- Import libraries. -->
+		<script src="/libs/d3.min.js"></script>
+		<script src="/libs/word_cloud.js"></script>
+
+		<link rel="shortcut icon" href="favicon/favicon.ico">
+		<link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif">
+
+		<!-- JS -->
+		<script language="JavaScript" type="text/javascript" src="scripts/behavior.js"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="style/styles.css">
+	</head>
+
+	<body onload = "init()">
+
+		<div id="upper_border"></div>
+		<div id="dashboardtitle">Retail Dashboard</div>
+		<div id="lower_border"></div>
+		<div id="filtersTopLegends">
+			<div id="SalesOrProfitLegend"></div>
+			<div id="YearLegend"></div>
+			<div id="CustomerAgeGroupLegend"></div>
+		</div>
+		<div id="filtersTop">
+			<select id="selectButtonProfitOrSales" onchange="render_charts()"></select>
+			<select id="selectButtonYear" onchange="render_charts()"></select>
+			<select id="selectButtonCustomerAgeGroup" onchange="render_charts()"></select>
+		</div>
+		<div id="barChart">
+			<class id="btn-group">
+			<button id="month_button" onclick="createbarchart('month')" style="float: right; margin:2px; width: 150px">By Month</button>
+			<button id="country_button" onclick="createbarchart('country')" style="float: right; margin:2px; width: 150px">By Country</button></class></div>
+		<div id="stackedAreaChart"></div>
+		<div id="slopeGraph">
+		</div>
+		<div id="sunBurst"></div>
+		<div id="wordCloud">
+			<div id="TopProductsLegend"></div>
+		</div>
+		<div id="filtersBottomLegends">
+			<div id="DepartmentLegend"></div>
+			<div id="Year2Legend"></div>
+			<div id="QuarterLegend"></div>
+			<div id="ProductLegend"></div>
+		</div>
+		<div id="filtersBottom">
+			<select id="selectButtonDepartment" onchange="render_charts()"></select>
+			<select id="selectButtonYear2" onchange="render_charts()"></select>
+			<select id="selectButtonQuarter" onchange="render_charts()"></select>
+			<select id="selectButtonProduct" onchange="render_charts()"></select>
+		</div>
+		<div id="lineChart"></div>
+		<div id="chart"></div>
+		<div id="brand1"></div>
+		<div id="brand2"></div>
+		<div id="product0"></div>
+		<div id="product1"></div>
+		<div id="dept">Departments</div>
+		<div id="class">Classes</div>
+
+
+	</body>
+</html>
