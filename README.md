@@ -69,7 +69,7 @@ The graphs that are found online only showed a limited amount of data and in all
 
 On applying necessary filters,
 
-![Top filters for the entire dashboard](1.png)
+![Top filters for the entire dashboard](images/1.png)
 
 ### Upper-Part Overview
 The upper portion of the dashboard offers a comprehensive view of various metrics and comparisons, each tailored to specific filters applied by the user. Here's a breakdown:
