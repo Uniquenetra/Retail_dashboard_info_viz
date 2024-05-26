@@ -57,7 +57,7 @@ Our aim was to create a dashboard where the user could see all of this informati
 
 When we were doing the research for our project we found different visualizations that were related to our project but they were composed by a single graph, most of them with no interactivity where we could only see a specific aspect of that specific store or product, like the one on figure 1.
 
-![Figure 1. IBM 5-Year Quarterly Revenue Growth](figure1.jpg)
+![Figure 1. IBM 5-Year Quarterly Revenue Growth](0.jpg)
 
 What we wanted was a dashboard that showcased the information for all the aspects of the store. We wanted the user to have information on the type of customers the store as, what are the trends in sales over the months, see how much a discount affects the sales of a products, and what are the most popular products in the different departments and different sub-departments (that we call classes) and also what type of brand the customers prefer overall.
 
@@ -67,51 +67,57 @@ The graphs that are found online only showed a limited amount of data and in all
 
 ## Visualization
 
+On applying necessary filters,
+
+![Top filters for the entire dashboard](1.jpg)
+
 ### Upper-Part Overview
 The upper portion of the dashboard offers a comprehensive view of various metrics and comparisons, each tailored to specific filters applied by the user. Here's a breakdown:
 
 1. **Total Sales per Month per filtered Year per filtered Customer Age Group:** 
-   ![Bar Chart with total sales over months](figure2.jpg)
+   ![Bar Chart with total sales over months](2.jpg)
 
 2. **Total Profits per Month per filtered Year per filtered Customer Age Group:** 
-   ![Bar Chart with total profits over months](figure3.jpg)
+   ![Bar Chart with total profits over months](3.jpg)
 
 3. **Total Sales per Country per filtered Year per filtered Customer Age Group:** 
-   ![Bar Chart with total sales over countries](figure4.jpg)
+   ![Bar Chart with total sales over countries](4.jpg)
 
 4. **Total Profits per Country per filtered Year per filtered Customer Age Group:** 
-   ![Bar Chart with total profits over countries](figure5.jpg)
+   ![Bar Chart with total profits over countries](5.jpg)
 
 5. **Comparison Sales for each Brand for various customer-income-level-groups per filtered Year, per filtered Customer Age Group:** 
-   ![Stacked Area Chart with total sales over income levels](figure6.jpg)
+   ![Stacked Area Chart with total sales over income levels](6.jpg)
 
 6. **Comparison Profits for each Brand for various customer-income-level-groups per filtered Year, per filtered Customer Age Group:** 
-   ![Stacked Area Chart with total profits over income levels](figure7.jpg)
+   ![Stacked Area Chart with total profits over income levels](7.jpg)
 
 7. **Comparison Sales for each Department (of product) for 2007 and 2008 per filtered Customer Age Group:**
-   ![Slope Chart with total sales for 2007 and 2008](figure8.jpg)
+   ![Slope Chart with total sales for 2007 and 2008](8.jpg)
 
 8. **Comparison Profits for each Department (of product) for 2007 and 2008 per filtered Customer Age Group:**
-   ![Slope Chart with total profits for 2007 and 2008](figure9.jpg)
+   ![Slope Chart with total profits for 2007 and 2008](9.jpg)
 
 9. **Comparison Sales or distribution over containing classes (of products) per filtered Year per filtered Customer Age Group:**
-   ![Treemap with total sales](figure10.jpg)
+   ![Treemap with total sales](10.jpg)
 
 10. **Comparison Profits or distribution over containing classes (of products) per filtered Year per filtered Customer Age Group:**
-    ![Treemap with total profits](figure11.jpg)
+    ![Treemap with total profits](11.jpg)
 
 11. **Top Selling Products of the company per filtered Year per filtered Customer Age Group:**
-    ![Word Cloud with top selling products](figure12.jpg)
+    ![Word Cloud with top selling products](12.jpg)
 
 12. **Top Profit-making Products of the company per filtered Year per filtered Customer Age Group:**
-    ![Word Cloud with top profit-making products](figure13.jpg)
+    ![Word Cloud with top profit-making products](13.jpg)
+
+![Legend for both the slope graph and the treemap](16.jpg)
 
 ### Lower-Part Overview
 The lower portion of the dashboard includes a single idiom:
 
 13. **Line Chart:**
     The line chart shows “What would have been the sales” (per filtered Product over the weeks of the filtered Year-Quarters) if there was no discount on the weeks when there was a discount. Essentially, it gives out the actual quantity vs. the projected quantity if there was no discount on that week.
-    ![Line Chart with sales value of “hamburger buns” over weeks](figure14.jpg)
+    ![Line Chart with sales value of “hamburger buns” over weeks](14.jpg)
 
 ### Idioms Interaction
 Each idiom interacts with others in the upper-part of the dashboard, ensuring a cohesive user experience:
@@ -121,6 +127,18 @@ Each idiom interacts with others in the upper-part of the dashboard, ensuring a 
 - **Slopegraph (Idiom 3):** Interacts with Bar Chart, Stacked Area Chart, Treemap, and Wordcloud.
 - **Treemap (Idiom 4):** Interacts with Bar Chart, Stacked Area Chart, Slopegraph, and Wordcloud.
 - **WordCloud (Idiom 5):** Interacts with Bar Chart, Stacked Area Chart, Slopegraph, and Treemap.
+
+### Dashboard with No Filters
+![Dashboard with No Filters](15.jpg)
+
+In the initial state, the dashboard displays data without any applied filters. Here's what the user sees:
+
+- **Year Selection:** Users can select the desired year they want to analyze.
+- **Age Group Filter:** Users can filter the customer age group, focusing on specific demographics. For instance, in this example, the age group selected is between 40 and 55 years.
+- **Top Products:** The dashboard highlights the products that the selected age group purchased the most during the chosen year. This insight helps in understanding consumer preferences and popular items within the target demographic.
+- **Departmental Spending:** Additionally, users can visualize the departments where the selected age group spent the most money. This information provides valuable insights into consumer behavior and helps in strategic decision-making for product placement, promotions, and inventory management.
+
+By starting with no filters and gradually applying them, users can explore different aspects of retail sales data and gain valuable insights into consumer behavior, product popularity, and departmental performance.
 
 ### Rationale
 - The choice of visualization idioms was based on their suitability for representing various aspects of retail sales data.
